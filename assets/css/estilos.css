@@ -153,3 +153,8 @@ body {
     flex-direction: column;
 }
 }
+@media screen and (max-width:450) {
+body {
+flex-direction: column; 
+}
+}
