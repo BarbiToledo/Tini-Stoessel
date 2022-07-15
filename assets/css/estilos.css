@@ -55,30 +55,12 @@ img{
 
 /*index*/
 
-li {
-    float: left;
-}
-
-ul a {
-    display: block;
-    color: rgb(206, 62, 182);
-    text-decoration: none;
-    padding: 14px 16px;
-    
-}
-
-li a:hover {
-    background-color: #FFBBEC;
-}
 header{
     display: flex;
     justify-content: center;
     font-size: var(--text-xsmall);
     gap: var(--spaicing-small)
 
-}
-.header__img{
-    margin-left: 1rem;
 }
 .titulo1{
     font-size: var(--text-medium);
