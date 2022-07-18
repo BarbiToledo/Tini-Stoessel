@@ -42,6 +42,7 @@ font-size: var(--spaicing-small);
 
 ul{
     list-style-type: none;
+    color: #000000;
 }
 li{
     display: inline;
@@ -52,7 +53,9 @@ text-decoration: none;
 img{
     width: 100%;
 }
-
+h1{
+    padding: var(--spaicing-small);
+}
 /*index*/
 
 header{
@@ -60,7 +63,6 @@ header{
     justify-content: center;
     font-size: var(--text-xsmall);
     gap: var(--spaicing-small)
-
 }
 .titulo1{
     font-size: var(--text-medium);
@@ -91,6 +93,14 @@ footer{
 }
 
 /* tour */
+
+.fechas__tour{
+    display: flex;
+    flex-direction: column;
+    padding: var(--spaicing-small);
+}
+
+/* redes sociales*/
 
 /*galeria*/
 
@@ -128,6 +138,23 @@ footer{
 }
 .galeria__img:nth-of-type(7){
     grid-column: 6 / 13;
+}
+
+/* musica */
+
+/* contacto */
+
+.cont__txt{
+padding: var(--spaicing-small);
+}
+
+.con__for{
+    display: flex;
+    padding: var(--spaicing-small);
+    margin: var(--spaicing-xsmall);
+    flex-direction: column;
+    padding: var(--spaicing-small);
+    background-color: var(--secundary);
 }
 
 @media screen and (max-width:780px){

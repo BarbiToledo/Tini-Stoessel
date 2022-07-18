@@ -7,16 +7,16 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- CSS PROPIO -->
-    <link rel="stylesheet" href="/assets/css/estilos.css">
+    <link rel="stylesheet" href="../assets/css/estilos.css">
     <title> CONTACTO </title>
-    <link rel="shortcut icon" href="/assets/img/logottt.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/img/logottt.png" type="image/x-icon">
 </head>
 <body>
     <header>
     
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/index.html"> <img src="/assets/img/Tini_martina_stoessel_logo.png" alt=""> </a>
+                <a class="navbar-brand" href="../index.html"> <img src="../assets/img/Tini_martina_stoessel_logo.png" alt=""> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -25,22 +25,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/index.html"> HOME</a>
+                            <a class="nav-link" aria-current="page" href="../index.html"> HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/views/tour.html"> TOUR</a>
+                            <a class="nav-link" href="./tour.html"> TOUR</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/views/redes.html"> REDES SOCIALES </a>
+                            <a class="nav-link" href="./redes.html"> REDES SOCIALES </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/views/galeria.html"> GALERIA </a>
+                            <a class="nav-link" href="./galeria.html"> GALERIA </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/views/musica.html"> MUSICA </a>
+                            <a class="nav-link" href="./musica.html"> MUSICA </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/views/contacto.html"> CONTACTO </a>
+                            <a class="nav-link active" href="./contacto.html"> CONTACTO </a>
                         </li>
                 </div>
             </div>
@@ -49,13 +49,18 @@
 
     </header> 
     <main>
+        <h1> CONTACTO </h1>
+        <div class="cont__txt">
+            Nos interesa conocerte y saber tù opinion, que es lo que te gustaria ver o que cambios harias. Tù opinion es de gran interes!
+        </div>
         <fieldset>
-        <form action="">
+        <form action="" class="con__for">
             <label for="Nombre"> Nombre </label>
-            <input type="text" name="Nombre" value="Nombre"> <br>
+            <input type="text" name="Nombre" value="Tu Nombre"> <br>
             <label for="Email"> Email </label>
-            <input type="email" name="Email" value="Email"> <br>
-                <textarea> Comentarios </textarea> <br>
+            <input type="email" name="Email" value="Tu email de contacto"> <br>
+            <label for="Mensaje"> Comentarios </label>
+                <textarea> Ingresa aquí tus comentarios </textarea> <br>
                 <input type="submit">
             </fieldset>
         </form>
