@@ -75,6 +75,16 @@ header{
     background-color: #FFBBEC;
     padding: var(--spaicing-medium);
 }
+
+.ima__ind{
+    display: flex;
+    padding: var(--spaicing-small);
+    justify-content: var(--spaicing-xsmall);
+}
+.foto__ind{
+    padding: var(--spaicing-xsmall);
+}
+
 .caja2{
     background-color: #FFBBEC;
     padding: var(--spaicing-medium);
@@ -111,13 +121,10 @@ footer{
 }
 .galeria{
     display: grid;
-    /*align-items:center;
-    justify-items: center;*/
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: var(--spaicing-xsmall);
 }
-
 .galeria__img:nth-of-type(1){
     grid-column: 1 / 5;
 }
