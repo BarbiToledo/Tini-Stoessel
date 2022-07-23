@@ -36,7 +36,7 @@ html{
 }
 
 body{
-background-color: #00000017;
+background-color:#E0C3FC ;
 font-size: var(--spaicing-small);
 }
 
@@ -96,7 +96,7 @@ header{
 }
 footer{
     display: flex;
-    justify-content:var(--spaicing-medium);
+    justify-content: var(--spaicing-xsmall);
     gap: var(--spaicing-medium);
     padding: var(--spaicing-xsmall) 0;
     max-width: 120px;
