@@ -159,11 +159,12 @@ padding: var(--spaicing-small);
 
 .con__for{
     display: flex;
-    padding: var(--spaicing-small);
-    margin: var(--spaicing-xsmall);
     flex-direction: column;
-    padding: var(--spaicing-small);
     background-color: var(--secundary);
+    width: 300px;
+    border: 5px solid rgba(60, 0, 128, 0.473);
+    padding: 10px;
+    margin: 20px;
 }
 
 @media screen and (max-width:780px){

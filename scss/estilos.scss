@@ -36,18 +36,17 @@ html{
 }
 
 body{
-background-color: #000000d3;
+background-color:#E0C3FC ;
 font-size: var(--spaicing-small);
 }
 
 ul{
     list-style-type: none;
     color: #000000;
-    li {
+}
+li{
     display: inline;
 }
-}
-
 a{
 text-decoration: none;
 }
@@ -61,10 +60,12 @@ h1{
 
 header{
     display: flex;
+    background-color: #E0C3FC;
     justify-content: center;
     font-size: var(--text-xsmall);
     gap: var(--spaicing-small)
 }
+
 .titulo1{
     font-size: var(--text-medium);
 }
@@ -97,7 +98,7 @@ header{
 }
 footer{
     display: flex;
-    justify-content:var(--spaicing-medium);
+    justify-content: var(--spaicing-xsmall);
     gap: var(--spaicing-medium);
     padding: var(--spaicing-xsmall) 0;
     max-width: 120px;
@@ -158,11 +159,12 @@ padding: var(--spaicing-small);
 
 .con__for{
     display: flex;
-    padding: var(--spaicing-small);
-    margin: var(--spaicing-small);
     flex-direction: column;
-    padding: var(--spaicing-small);
     background-color: var(--secundary);
+    width: 300px;
+    border: 5px solid rgba(60, 0, 128, 0.473);
+    padding: 10px;
+    margin: 20px;
 }
 
 @media screen and (max-width:780px){
