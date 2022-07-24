@@ -60,10 +60,12 @@ h1{
 
 header{
     display: flex;
+    background-color: #E0C3FC;
     justify-content: center;
     font-size: var(--text-xsmall);
     gap: var(--spaicing-small)
 }
+
 .titulo1{
     font-size: var(--text-medium);
 }
