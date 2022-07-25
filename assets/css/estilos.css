@@ -36,8 +36,9 @@ html{
 }
 
 body{
-background-color:#E0C3FC ;
+background-color:#000000 ;
 font-size: var(--spaicing-small);
+color: #ffffff;
 }
 
 ul{
@@ -60,7 +61,7 @@ h1{
 
 header{
     display: flex;
-    background-color: #E0C3FC;
+    background-color: #000000;
     justify-content: center;
     font-size: var(--text-xsmall);
     gap: var(--spaicing-small)
@@ -74,7 +75,7 @@ header{
     margin: var(--spaicing-xsmall);
 }
 .caja1{
-    background-color: #FFBBEC;
+    background-color: #77175c;
     padding: var(--spaicing-medium);
 }
 
@@ -88,7 +89,7 @@ header{
 }
 
 .caja2{
-    background-color: #FFBBEC;
+    background-color:#77175c;
     padding: var(--spaicing-medium);
     transform: translate(50px);
 }
@@ -110,6 +111,7 @@ footer{
     display: flex;
     flex-direction: column;
     padding: var(--spaicing-small);
+    color: #ffffff;
 }
 
 /* redes sociales*/
@@ -170,10 +172,12 @@ padding: var(--spaicing-small);
 @media screen and (max-width:780px){
 body {
     flex-direction: column;
+    background-color: #000000;
 }
 }
 @media screen and (max-width:450) {
 body {
 flex-direction: column; 
+background-color: #000000;
 }
 }
