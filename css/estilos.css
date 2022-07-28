@@ -1,7 +1,7 @@
 @charset "UTF-8";
 :root {
   /* colours */
-  --primary: #000000 ;
+  --primary: #000000;
   --secundary: #d333ff8e;
   --third: #808080;
   /* espacios */
@@ -15,13 +15,11 @@
   --text-small: 1.5em;
   /* fuentes */
   --font-title: 'Nunito Sans', sans-serif;
-  --font-subtitle:'Barlow', sans-serif;
-  --font-text: 
+  --font-subtitle: 'Barlow', sans-serif;
+  --font-text:
 ; }
 
-*::after
-*::before
-* {
+*::after *::before * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
@@ -30,84 +28,82 @@ html {
   font-size: 62.5%; }
 
 body {
-  background-color: #00000017;
-  font-size: var(--spaicing-small); }
+  background-color: #E0C3FC;
+  font-size: var(--spaicing-small);
+  color: #ffffff; }
 
 ul {
   list-style-type: none;
   color: #000000; }
-
-li {
-  display: inline; }
-
-a {
-  text-decoration: none; }
+  ul li {
+    display: inline; }
+  ul a {
+    text-decoration: none; }
 
 img {
   width: 100%; }
 
 h1 {
-  padding: var(--spaicing-small); }
+  padding: 2rem; }
 
 /*index*/
 header {
   display: flex;
+  background-color: #E0C3FC;
   justify-content: center;
-  font-size: var(--text-xsmall);
-  gap: var(--spaicing-small); }
+  font-size: 1rem;
+  gap: 2rem; }
 
 .titulo1 {
-  font-size: var(--text-medium); }
+  font-size: 3em; }
 
 .caja {
-  padding: var(--spaicing-xsmall);
-  margin: var(--spaicing-xsmall); }
-
-.caja1 {
-  background-color: #FFBBEC;
-  padding: var(--spaicing-medium); }
+  padding: 1.5em;
+  margin: 1.5em; }
+  .caja .caja1 {
+    background-color: #FFBBEC;
+    padding: 2.4rem; }
 
 .ima__ind {
   display: flex;
-  padding: var(--spaicing-small);
-  justify-content: var(--spaicing-xsmall); }
-
-.foto__ind {
-  padding: var(--spaicing-xsmall); }
+  padding: 2rem;
+  justify-content: 1rem; }
+  .ima__ind .foto__ind {
+    padding: 1rem; }
 
 .caja2 {
   background-color: #FFBBEC;
-  padding: var(--spaicing-medium);
+  padding: 2.4rem;
   transform: translate(50px); }
-
-.piep {
-  padding: 1rem;
-  margin: 1rem; }
 
 footer {
   display: flex;
-  justify-content: var(--spaicing-medium);
-  gap: var(--spaicing-medium);
-  padding: var(--spaicing-xsmall) 0;
+  justify-content: 1rem;
+  gap: 2.4rem;
+  padding: 1rem 0;
   max-width: 120px; }
+  footer .piep {
+    padding: 1rem;
+    margin: 1rem; }
 
 /* tour */
 .fechas__tour {
   display: flex;
   flex-direction: column;
-  padding: var(--spaicing-small); }
+  padding: 2rem;
+  color: #ffffff; }
 
 /* redes sociales*/
 /*galeria*/
 .titulo__im {
-  font-size: var(--text-small);
-  padding-top: var(--spaicing-medium); }
+  font-size: 1.5em;
+  padding-top: 2.4rem; }
 
 .galeria {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  gap: var(--spaicing-xsmall); }
+  gap: 1rem; }
 
 .galeria__img:nth-of-type(1) {
   grid-column: 1 / 5; }
@@ -133,15 +129,16 @@ footer {
 /* musica */
 /* contacto */
 .cont__txt {
-  padding: var(--spaicing-small); }
+  padding: 1rem; }
 
 .con__for {
   display: flex;
-  padding: var(--spaicing-small);
-  margin: var(--spaicing-xsmall);
   flex-direction: column;
-  padding: var(--spaicing-small);
-  background-color: var(--secundary); }
+  background-color: #d333ff8e;
+  width: 300px;
+  border: 5px solid rgba(60, 0, 128, 0.473);
+  padding: 10px;
+  margin: 20px; }
 
 @media screen and (max-width: 780px) {
   body {
