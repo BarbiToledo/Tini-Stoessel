@@ -1,30 +1,4 @@
-@import "variables"; 
-
-:root {
-    /* colours */
-    --primary: #000000;
-    --secundary: #d333ff8e;
-    --third: #808080;
-
-    /* espacios */
-
-    --spaicing-large: 6rem;
-    --spaicing-medium: 2.4rem;
-    --spaicing-small: 2rem;
-    --spaicing-xsmall: 1rem;
-
-    /* tamaño de fuentes */
-
-    --text-large: 5em;
-    --text-medium: 3em;
-    --text-small: 1.5em;
-
-    /* fuentes */
-
-    --font-title: 'Nunito Sans', sans-serif;
-    --font-subtitle: 'Barlow', sans-serif;
-    --font-text:
-}
+@import "variables";
 
 *::after *::before * {
     margin: 0;
@@ -37,8 +11,8 @@ html {
 }
 
 body {
-    background-color: #E0C3FC;
-    font-size: var(--spaicing-small);
+    background-color: $color-primary;
+    font-size: $spaicing-small;
     color: #ffffff;
 }
 
@@ -67,8 +41,8 @@ h1 {
 
 header {
     display: flex;
-    background-color: #E0C3FC;
-    justify-content: center;
+    background-color: #000000;
+
     font-size: $spaicing-xsmall;
     gap: $spaicing-small
 }
@@ -80,8 +54,9 @@ header {
 .caja {
     padding: $text-small;
     margin: $text-small;
-        .caja1 {
-        background-color: #FFBBEC;
+
+    .caja1 {
+        background-color: $color-secundary;
         padding: $spaicing-medium;
     }
 }
@@ -92,7 +67,8 @@ header {
     display: flex;
     padding: $spaicing-small;
     justify-content: $spaicing-xsmall;
-        .foto__ind {
+
+    .foto__ind {
         padding: $spaicing-xsmall;
     }
 }
@@ -109,10 +85,11 @@ footer {
     gap: $spaicing-medium;
     padding: $spaicing-xsmall 0;
     max-width: 120px;
+
     .piep {
-    padding: 1rem;
-    margin: 1rem;
-}
+        padding: 1rem;
+        margin: 1rem;
+    }
 }
 
 /* tour */

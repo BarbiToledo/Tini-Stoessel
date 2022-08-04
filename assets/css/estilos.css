@@ -35,7 +35,7 @@ html {
 }
 
 body {
-    background-color: #E0C3FC;
+    background-color: #000000;
     font-size: var(--spaicing-small);
     color: #ffffff;
 }
@@ -65,7 +65,7 @@ h1 {
 
 header {
     display: flex;
-    background-color: #E0C3FC;
+    background-color: #000000;
     justify-content: center;
     font-size: var(--text-xsmall);
     gap: var(--spaicing-small)
@@ -81,7 +81,7 @@ header {
 }
 
 .caja1 {
-    background-color: #FFBBEC;
+    background-color: #b3248a;
     padding: var(--spaicing-medium);
 }
 
