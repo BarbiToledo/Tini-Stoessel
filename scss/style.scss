@@ -117,6 +117,12 @@ h1 {
 }
 
 /* musica */
+
+.musica__spo  {
+    display:flex;
+    padding: $spaicing-medium;
+    margin: $spaicing-medium;
+}
 /* contacto */
 .cont__txt {
     padding: $spaicing-large -5;
