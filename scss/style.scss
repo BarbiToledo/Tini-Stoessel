@@ -1,32 +1,25 @@
-@import "variables";
+@import 'utilidades/variables';
+@import 'base/reset';
+@import 'componentes/footer';
 
-*::after *::before * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 62.5%;
-}
 
 body {
-    background-color: $color-primary;
-    font-size: $spaicing-small;
+    background-color: $color_principal;
+    font-size: $spaicing-small ;
     color: #ffffff;
 }
 
 ul {
     list-style-type: none;
-    color: #000000;
+    color: $color_principal;
+}
 
-    li {
-        display: inline;
-    }
+ul li {
+    display: inline;
+}
 
-    a {
-        text-decoration: none;
-    }
+ul a {
+    text-decoration: none;
 }
 
 img {
@@ -34,88 +27,65 @@ img {
 }
 
 h1 {
-    padding: $spaicing-small;
+    padding: $spaicing-medium ;
 }
 
 /*index*/
 
-header {
-    display: flex;
-    background-color: #000000;
 
+.titulo__index {
     font-size: $spaicing-xsmall;
-    gap: $spaicing-small
-}
-
-.titulo1 {
-    font-size: $text-medium;
+    padding: $spaicing-small;
 }
 
 .caja {
-    padding: $text-small;
-    margin: $text-small;
-
-    .caja1 {
-        background-color: $color-secundary;
-        padding: $spaicing-medium;
-    }
+    padding: 1em;
+    margin: 1.5em;
 }
 
+.caja .caja__uno {
+    background-color: $color_cajas;
+    padding: 2rem;
 
+}
 
 .ima__ind {
     display: flex;
-    padding: $spaicing-small;
-    justify-content: $spaicing-xsmall;
-
-    .foto__ind {
-        padding: $spaicing-xsmall;
-    }
+    padding: $spaicing-medium;
+    justify-content: $spaicing-large -5;
 }
 
-.caja2 {
-    background-color: #FFBBEC;
+.ima__ind .foto__ind {
+    padding: $spaicing-large -5;
+}
+
+.caja__dos {
+    background-color: $color_cajas;
     padding: $spaicing-medium;
     transform: translate(50px);
 }
 
-footer {
-    display: flex;
-    justify-content: $spaicing-xsmall;
-    gap: $spaicing-medium;
-    padding: $spaicing-xsmall 0;
-    max-width: 120px;
-
-    .piep {
-        padding: 1rem;
-        margin: 1rem;
-    }
-}
 
 /* tour */
-
 .fechas__tour {
     display: flex;
     flex-direction: column;
-    padding: $spaicing-small;
+    padding: $spaicing-large -4;
     color: #ffffff;
 }
 
 /* redes sociales*/
-
 /*galeria*/
-
 .titulo__im {
-    font-size: $text-small;
+    font-size: 1.5em;
     padding-top: $spaicing-medium;
-
 }
 
 .galeria {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    gap: $spaicing-xsmall;
+    gap: $spaicing-large -5;
 }
 
 .galeria__img:nth-of-type(1) {
@@ -147,30 +117,28 @@ footer {
 }
 
 /* musica */
-
 /* contacto */
-
 .cont__txt {
-    padding: $spaicing-xsmall;
+    padding: $spaicing-large -5;
 }
 
 .con__for {
     display: flex;
     flex-direction: column;
-    background-color: $color-secundary;
+    background-color: #D052D1;
     width: 300px;
     border: 5px solid rgba(60, 0, 128, 0.473);
     padding: 10px;
     margin: 20px;
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width: 780px) {
     body {
         flex-direction: column;
     }
 }
 
-@media screen and (max-width:450) {
+@media screen and (max-width: 450) {
     body {
         flex-direction: column;
     }

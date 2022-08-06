@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    background-color: $color_principal;
+    padding: $spaicing-medium;
+}
+
+.fa-brands {
+    display: flex;
+    margin: $spaicing-small;
+    color: gray;
+    width: 50;
+    height: 50;
+    justify-content: space-around;
+}
